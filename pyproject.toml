@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "prototipo-blockchain"
+version = "0.1.0"
+description = "Um protótipo de blockchain desenvolvida em Python."
+authors = ["devid <nnick4673@gmail.com>", "jose <cv1713298@gmail.com>", "thidoa <thiagovini200@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "prototipo_blockchain"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
